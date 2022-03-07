@@ -18,135 +18,141 @@
 			}
 			img {
 				max-width:100%;
+				width:100%;
 			}
 		</style>
-		
+		<script>
+			function setImage() {
+				var num = Math.floor(Math.random() * 101);
+				document.images[num].src = "media/puppy.png"
+			}
+		</script>
 	</head>
-	<body>
+	<body onload="setImage()">
 		<h3>
 			마우스 클릭 연습
 		</h3>
 		<hr>
 		<table>
 			<tr>
-				<td style="line-height:0"><img src="media/puppy.png" width="100%"></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td style="line-height:0"><img></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
-				<td></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
+				<td><img src=""></td>
 			</tr>
 		</table>
 	</body>
