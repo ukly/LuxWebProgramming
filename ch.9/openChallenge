@@ -22,9 +22,18 @@
 			}
 		</style>
 		<script>
+			var num;
 			function setImage() {
-				var num = Math.floor(Math.random() * 101);
+				num = Math.floor(Math.random() * 101);
 				document.images[num].src = "media/puppy.png"
+				document.images[num].onclick = changeImage;
+			}
+			function changeImage() {
+				document.images[num].src = "";
+				document.images[num].onclick="";
+				num = Math.floor(Math.random() * 101);
+				document.images[num].src = "media/puppy.png"
+				document.images[num].onclick = changeImage;
 			}
 		</script>
 	</head>
